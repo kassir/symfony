@@ -8,7 +8,7 @@ $iniPath = $symfonyRequirements->getPhpIniConfigPath();
 
 echo_title('Symfony2 Requirements Checker');
 
-echo '> PHP is using the following php.ini file:'.PHP_EOL;
+echo '> PHP is using the following php.ini file:'.PHP_EOL; 
 if ($iniPath) {
     echo_style('green', '  '.$iniPath);
 } else {
