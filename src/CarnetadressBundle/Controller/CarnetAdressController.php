@@ -15,7 +15,7 @@ class CarnetAdressController extends Controller
 {
     public function listerAction()
     {
-	   $em = $this->container->get('doctrine')->getEntityManager();
+	  $em = $this->container->get('doctrine')->getEntityManager();
 
     $cAdress= $em->getRepository('CarnetadressBundle:CarnetAdress')->findAll();
 
