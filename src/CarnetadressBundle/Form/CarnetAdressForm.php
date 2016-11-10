@@ -10,7 +10,7 @@ class CarnetAdressForm extends AbstractType
 
   {
 
-    $builder
+     $builder
 
       ->add('nom',      'text')
 
