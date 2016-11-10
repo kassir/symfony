@@ -20,6 +20,7 @@
                 "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
                 "shasum": ""
             },
+
             "require": {
                 "doctrine/lexer": "1.*",
                 "php": ">=5.3.2"
