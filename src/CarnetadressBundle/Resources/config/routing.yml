@@ -1,5 +1,5 @@
 carnetadress_homepage:
-    path:     /
+    path:      /
     defaults: { _controller: CarnetadressBundle:Default:index }
 
 carnet_adress_lister:
